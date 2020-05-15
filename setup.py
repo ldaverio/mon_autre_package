@@ -36,5 +36,8 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     python_requires='>=3.6',
-
+    entry_points="""\
+    [console_scripts]
+    script_essai = mon_autre_package.scripts.script_essai:main
+    """,
 )
